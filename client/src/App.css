@@ -1,0 +1,92 @@
+body {
+  font-family: Montserrat, sans-serif;
+  background: #f2f2f2;
+  color: #757575;
+  margin: 0px;
+}
+
+.app {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 30px auto;
+  width: 786px;
+  align-items: inherit;
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 40vh;
+}
+
+.button {
+  margin: 0 10vw;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.button svg {
+  filter: drop-shadow(3px 3px 3px #999);
+  transition: 0.3s;
+  transform: rotate(-0.2deg)
+}
+
+input[type=file] { 
+  visibility: hidden;
+  position: absolute
+}
+
+img {
+  max-height: 420px;
+  max-width: 420px;
+  padding: 10px;
+  border: 1px dashed #999;
+}
+
+/* Animations */
+.fadein {
+  animation: fadein 2s;
+}
+
+.loader {
+  background: url('./assets/loader.svg');
+}
+
+.dropContainer {
+  width: 300px;
+  border: 1px dashed #999;
+  padding: 60px 0 0 100px;
+  height: 8em;
+  margin-top: 40px;
+}
+
+.seperator {
+  margin-top: 60px;
+}
+
+.content {
+  margin: 70px 0 40px 30px;
+}
+
+pre.fileDisplayArea {
+  margin-bottom: 50px;
+}
